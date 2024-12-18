@@ -1,0 +1,50 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid {
+    padding: 15px;
+}
+
+.grid::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.grid .col{
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
+.grid .col-content{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+
+/*
+FLEX DIRECTION - ROW HORIZONTAL
+FLEX DIRECTION - ROW REVERSE   REVERSO DIREITA PARA ESQUERDA
+FLEX DIRECTION - COLUMN  DE CIMA PARA BAIXO 
+FLEX DIRECTION - COLUMN REVERSE  DE BAIXO PARA CIMA 
+
+
+EIXO PRINCIPAL - MAIN AXIS // MAIN START  MAIN END   
+CROSS AXIS CROSS START E CROSS END
+ 
+*/
+
+
+itemflex {
+    background-color: red;
+    flex: auto;
+}
