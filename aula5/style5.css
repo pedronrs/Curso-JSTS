@@ -29,6 +29,32 @@
     background-color: blue;
 }
 
+@media all{
+    .grid .col{
+        width: 100%;
+    }
+}
+@media all and (min-width:768px){
+    .grid .col{
+        width: 50%;
+    }
+}
+@media all and(max-width:769px) and (max-width:1200px) {
+    .grid .col{
+        width: 33.33%;
+    }
+}
+@media all and (min-width:1201px) and (max-width:2559px){
+    .grid .col{
+        width: 25%;
+    }
+}
+@media all and (min-width:2560px){
+    .grid .col{
+        width: 20%;
+    }
+}
+
 
 
 /*
