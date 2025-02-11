@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            background-color: #f0f0f0;
+            margin-top: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-top: 10px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+        <form action="" method="get" id="form">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <input type="submit" onclick="send_data()" value="Enviar">
+        </form>
+    <script src="../js/aula1.js"></script>
+</body>
+</html>
